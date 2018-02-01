@@ -1,0 +1,115 @@
+.App {
+  text-align: center;
+}
+
+.initialScreen {
+  margin-top: 200px;
+}
+
+.initialScreen button{
+  margin-top: 50px;
+  border-radius: 25px;
+  background-color: white;
+  border: 1px solid #800000; 
+}
+
+.newGame {
+  margin-bottom: 20px;
+}
+
+.newGame button {
+  background-color: #14E0FF;
+  width: 80px;
+  border-radius: 25px; 
+  -moz-border-radius: 25px; 
+  -webkit-border-radius: 25px;  
+}
+
+.unselectedContainer {
+  width: 50%;
+  float: left;
+  border-right: 1px solid black;
+}
+
+.selectedContainer {
+  width: 48%;
+  float: right;
+}
+
+.selectedContainer h1{
+  margin-bottom: 60px;
+}
+.unselectedDice {
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin-left: 10px;
+}
+
+.unselected button{
+  background-color: #14E0FF;
+  width: 80px;
+  border-radius: 25px; 
+  -moz-border-radius: 25px; 
+  -webkit-border-radius: 25px;
+}
+
+
+.selectedDice {
+  width: 300px;
+  height: 200px;
+  float: left;
+}
+
+.attack {
+  display: block;
+  width: 300px;
+  height: 200px;
+  background-image: url(./images/diceImages.png);
+  text-indent: -9999px;
+}
+
+.one {
+  display: block;
+  background-position: -300px 0;
+  width: 300px;
+  height: 200px;
+  background-image: url(./images/diceImages.png);
+  text-indent: -9999px;
+}
+
+.heart {
+  display: block;
+  background-position: 0 -200px;
+  width: 300px;
+  height: 200px;
+  background-image: url(./images/diceImages.png);
+  text-indent: -9999px;
+}
+
+.two {
+  display: block;
+  background-position: -300px 0;
+  width: 300px;
+  height: 200px;
+  background-image: url(./images/diceImages.png);
+  text-indent: -9999px;
+}
+
+.energy {
+  display: block;
+  background-position: 0px -400px;
+  width: 300px;
+  height: 200px;
+  background-image: url(./images/diceImages.png);
+  text-indent: -9999px;
+}
+
+.three {
+  display: block;
+  background-position: -300px -400px;
+  width: 300px;
+  height: 200px;
+  background-image: url(./images/diceImages.png);
+  text-indent: -9999px;
+}
