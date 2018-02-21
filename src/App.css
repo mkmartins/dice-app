@@ -98,7 +98,7 @@
 
 .energy {
   display: block;
-  background-position: 0px -400px;
+  background-position: 0 -400px;
   width: 300px;
   height: 200px;
   background-image: url(./images/diceImages.png);
